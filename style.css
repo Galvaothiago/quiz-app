@@ -1,0 +1,127 @@
+/* estilizacao geral da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* estilizacao do container principal  */
+
+.container-main {
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+
+    padding: 10px;
+
+    /* background-color: blue; */
+}
+
+/* estilizacao do header da pagina, titulo e exibicao do resultado */
+
+.header {
+    width: 100%;
+    height: 200px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    background-color: #54426b;
+
+    border-radius: 120px 0 120px 0;
+
+}
+
+.header > h1 {
+    position: relative;
+    top: 10px;
+    font-size: 3.2rem;
+    color: #fff;
+    
+}
+
+.header div.result {
+    position: relative;
+    top: 40px;
+    font-size: 1.5rem;
+
+    display: none;
+    color: seashell;
+
+}
+
+.header div.result span {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/* estilizacao da sessao das perguntas de forma geral */
+ 
+.question__style {
+    margin-bottom: 12px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+    background: #efefef;
+
+}
+
+classe 
+
+.background-color {
+    background: rgba(84, 66, 107, .3);
+}
+
+.question__style > p {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 30px 0;
+    padding: 15px;
+    width: 300px;
+
+    text-align: left;
+    background-color: #94345B;
+    color: seashell;
+
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+}
+
+
+.question__style .question__option {
+    padding: 1%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.question__style .question__option:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    color: #fff;
+    background: rgba(84, 66, 107, .3);
+
+}
+
+.buttom-btn {
+    width: 100%;
+    text-align: center;
+
+}
+
+.btn {
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+
+    width: 170px;
+    height: 40px;
+
+    background: #94345B;
+    color: #fff;
+    border: none;
+
+}

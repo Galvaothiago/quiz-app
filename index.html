@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thiago Galvao">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Quiz - Tech</title>
+</head>
+<body>
+    <div class="container-main">
+        <header class="header">
+            <h1 class="header__title">Quiz Tech</h1>
+            <div class="result" data-js="container-result">
+                <p>Voce acertou <span class="show-result">0%</span> do quiz</p>
+            </div>
+        </header>
+
+            <form data-js="form" class="questions__form">
+                <div class="question__style">
+                    <p>1 - Inteligencia artificial</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question1" value="A">
+                            A - Imitar a inteligência humana para executar tarefas
+                        </label>
+                    </div>
+                    <div class="question__option">
+                         <label>
+                             <input type="radio" name="question1" value="B">
+                             B - Maquinas programadas por outras maquinas
+                         </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question1" value="C">
+                            C - Já superou a inteligência humana em todos aspectos
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question__style">
+                    <p>2 - Big Data</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question2" value="A" >
+                            A - Grande volume de dados que pode gerar insights para empresas.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question2" value="B">
+                            B - Conexao entre varias redes de computadores.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question2" value="C">
+                            C - Linguagem de programação.
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question__style">
+                    <p>3 - Blockchain</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question3" value="A">
+                            A - Rede de uso exclusivo para transações de criptomoedas.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question3" value="B" >
+                            B - Possibilita transações sem intermediários de maneira confiável.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question3" value="C">
+                            C - Vários computadores controlados por uma empresa que registra e verifica transações.
+                        </label>
+                    </div>
+                </div>               
+
+                <div class="question__style">
+                    <p>4 - Internet das coisas (IoT)</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question4" value="A">
+                            A - Tecnologia exclusiva de indústria para conexão de equipamentos.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question4" value="B">
+                            B - Venda de produtos eletrônicos na internet.
+                        </label>
+
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question4" value="C" >
+                            C - Objetos cotidianos conectados a internet e que conversam entre si.
+                        </label>
+                    </div>
+                </div>               
+
+                <div class="question__style">
+                    <p>5 - Reconhecimento facial</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question5" value="A" >
+                            A - Identifica pessoas usando biometria facial, mesmo que estejam em meio a uma multidão.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question5" value="B">
+                            B - Identifica pessoas usando biometria facial, mas não funciona em multidões.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question5" value="C">
+                            C - Tecnologia usada por governos para aumentar a privacidade dos cidadãos.
+                        </label>
+                    </div>
+                </div>               
+
+                <div class="question__style">
+                    <p>6 - Algoritmo</p>
+
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question6" value="A">
+                            A - Processador de ultima geracao para computadores.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question6" value="B">
+                            B - Sistema programado por máquinas que toma decisão pelos humanos.
+                        </label>
+                    </div>
+                    <div class="question__option">
+                        <label>
+                            <input type="radio" name="question6" value="C" >
+                            C - Emprega técnicas de levantamento de dados e forma de processá-los.
+                        </label>
+                    </div>
+                </div>            
+                <div class="buttom-btn">
+                    <button class="btn">ENVIAR</button>
+                </div>
+
+            </form>
+    </div>
+<script src="/app.js"></script>
+</body>
+</html>
